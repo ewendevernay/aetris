@@ -2,6 +2,8 @@
 Multiplayer tetris. May still have some bugs. Play at your own risk.
 
 ## Building
+You must have the raylib library libraries `raylib-5.5_linux_amd64` and `raylib-5.5_win64_msvc16` in the folder. Download the zip files in the aetris folder and extract them.
+
 ### Linux
 Run `./build.sh`, creates the executable `aetris_linux`
 ### Windows
