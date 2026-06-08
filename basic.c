@@ -147,3 +147,11 @@ String *string_split(Pool *pool, String string, char delimeter, uint32_t *out_co
 
 	return spliced;
 }
+
+inline static int64_t modi(int64_t a, int64_t b) {
+	int64_t r = a % b;
+	if (r < 0)
+		r += b;
+
+	return r;
+}
